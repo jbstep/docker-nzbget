@@ -1,7 +1,3 @@
-docker-nzbget
-
-Description
-
 A Dockerfile for NZBGet.
 
 The default login is nzbget / tegbzn6789.
