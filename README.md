@@ -1,15 +1,16 @@
-A Dockerfile for NZBGet.
+###A Dockerfile for NZBGet.
 
 The default login is nzbget / tegbzn6789.
 
-Volumes
+###Volumes
 
 /data
+/downloads
 
 Configuration files and state for NzbGet.
 
-Ports
+###Ports
 
 6789
 
-WebUI port.
+####WebUI port.
