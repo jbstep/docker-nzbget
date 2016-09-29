@@ -11,6 +11,9 @@ ADD start.sh /start.sh
 
 VOLUME ["/data"]
 VOLUME ["/downloads"]
+
 EXPOSE 6789
+
+RUN chmod u+x /start.sh
 
 CMD ["/start.sh"]
